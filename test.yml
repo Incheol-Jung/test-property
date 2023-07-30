@@ -2,4 +2,4 @@ name: bbbbbb
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:log4jdbc:mariadb://15.165.158.55:3306/arty?useUnicode=yes&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Seoul
+    url: jdbc:h2:mem:settlement-test;MODE=MySQL
